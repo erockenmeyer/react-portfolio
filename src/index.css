@@ -1,13 +1,56 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --dark-grey: #292929;
+  --purple: #6b3a8a;
+  --light-grey: #b0b0b0;
+}
+
+header, footer {
+  background-color: var(--light-grey);
+  color: var(--purple);
+}
+
+body {
+  background-color: var(--dark-grey);
+  color: var(--light-grey);
+  font-family: 'Gideon Roman', 'Playfair Display', serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a, a:hover {
+  color: var(--purple);
+}
+
+h1, h2 {
+  font-family: 'Fleur De Leah', serif;
+}
+
+.featured-site-name {
+  position: absolute;
+  top: 45px;
+  background-color: var(--purple);
+  color: var(--light-grey);
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: 'Beau Rivage', serif;
+}
+
+.site-name {
+  background-color: var(--purple);
+  color: var(--light-grey);
+  font-size: 1.5rem;
+  font-family: 'Beau Rivage', serif;
+}
+
+.site-name:hover {
+  background-color: var(--purple);
+  color: var(--light-grey);
 }
