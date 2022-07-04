@@ -1,13 +1,20 @@
 import React from 'react';
 
-function Navigation() {
+function Navigation(props) {
+    const {
+        categories = [],
+        setCurrentCategory
+    } = props;
     return (
         <nav>
             <ul className='flex-row'>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-                <li>Resume</li>
+                {categories.map((category) => (
+                    <li onClick={() => {
+                        setCurrentCategory(category);
+                    }}>
+                        {category.name}
+                    </li>
+                ))}
             </ul>
         </nav>
     )
