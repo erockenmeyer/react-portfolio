@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Fleur+De+Leah&display=swap);
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +25,7 @@ body {
 
 ul {
   list-style: none;
+  text-decoration: none;
 }
 
 a, a:hover {

@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
+import Resume from "./components/resume";
 
 function App() {
   const [categories] = useState([
@@ -31,7 +32,7 @@ function App() {
     } else if (currentCategory.name === 'Contact') {
       return <Contact />
     } else if (currentCategory.name === 'Resume') {
-      return <div></div>
+      return <Resume />
     }
   }
 
