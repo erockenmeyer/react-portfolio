@@ -9,10 +9,10 @@ function Navigation(props) {
         <nav>
             <ul className='flex-row'>
                 {categories.map((category) => (
-                    <li onClick={() => {
-                        setCurrentCategory(category);
-                    }}>
-                        {category.name}
+                    <li>
+                        <a href={`#${category.name}`} onClick={() => 
+                            setCurrentCategory(category)
+                        }>{category.name}</a>
                     </li>
                 ))}
             </ul>

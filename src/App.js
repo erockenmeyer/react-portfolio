@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import About from "./components/about";
+import Contact from "./components/contact";
 
 function App() {
   const [categories] = useState([
@@ -17,25 +19,28 @@ function App() {
       name: 'Resume'
     },
   ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
   const renderCat = () => {
-    if (currentCategory === 'About Me') {
-      return 
-    } else if (currentCategory === 'Portfolio') {
-      return
-    } else if (currentCategory === 'Contact') {
-      return
-    } else if (currentCategory === 'Resume') {
-      return
+    if (currentCategory.name === 'About Me') {
+      return <About />
+    } else if (currentCategory.name === 'Portfolio') {
+      return <div></div>
+    } else if (currentCategory.name === 'Contact') {
+      return <Contact />
+    } else if (currentCategory.name === 'Resume') {
+      return <div></div>
     }
   }
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
     <div>
       <Header
         categories={categories}
         setCurrentCategory={setCurrentCategory}
       ></Header>
+      <div>{renderCat()}</div>
       <Footer></Footer>
     </div>
   );
