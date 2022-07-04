@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact () {
     return (
-        <main>
+        <main className='text-center'>
             <h1>Contact Me</h1>
             <p>
                 email: <a href="mailto:erikrockenmeyer@gmail.com">erikrockenmeyer@gmail.com</a> <br />

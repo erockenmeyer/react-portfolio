@@ -6,10 +6,10 @@ function Navigation(props) {
         setCurrentCategory
     } = props;
     return (
-        <nav>
-            <ul className='flex-row'>
+        <nav className='col-12 col-md-6'>
+            <ul className='row'>
                 {categories.map((category) => (
-                    <li>
+                    <li className='col-12 col-md-3'>
                         <a href={`#${category.name}`} onClick={() => 
                             setCurrentCategory(category)
                         }>{category.name}</a>

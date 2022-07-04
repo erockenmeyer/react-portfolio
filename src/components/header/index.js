@@ -7,8 +7,10 @@ function Header(props) {
         setCurrentCategory
     } = props;
     return (
-        <header className="flex-row">
-            <h2>Erik Rockenmeyer</h2>
+        <header className="row pt-2 align-items-center justify-content-around">
+            <div className="col-12 col-md-5">
+                <h2>Erik Rockenmeyer</h2>
+            </div>
             <Navigation
                 categories={categories}
                 setCurrentCategory={setCurrentCategory}
