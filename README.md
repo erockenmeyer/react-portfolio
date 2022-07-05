@@ -18,7 +18,7 @@ N/A
 https://erockenmeyer.github.io/react-portfolio/
 
 ## Screenshot
-
+![react-portfolio-ss](https://user-images.githubusercontent.com/94813971/177240795-fbaf8eb8-e8b7-407d-bf70-c9d0e9256003.PNG)
 
 ## Contributing
 Erik Rockenmeyer
