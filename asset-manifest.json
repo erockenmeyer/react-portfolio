@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.67ca8108.css",
+    "main.js": "/react-portfolio/static/js/main.b0ebe5c7.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/dnd-char-roll.png": "/react-portfolio/static/media/dnd-char-roll.e26a6e5dc0a8cd340fde.png",
+    "static/media/site screenshot.png": "/react-portfolio/static/media/site screenshot.7b078cd73c30c8b4a6d1.png",
+    "static/media/avatar.png": "/react-portfolio/static/media/avatar.91aa64d1fb252bf8c99d.png",
+    "static/media/react-portfolio-ss.PNG": "/react-portfolio/static/media/react-portfolio-ss.95bda8731498c58a1d39.PNG",
+    "static/media/the-spell-book.png": "/react-portfolio/static/media/the-spell-book.7210e1449244d0cb1194.png",
+    "static/media/Erik Rockenmeyer Resume.pdf": "/react-portfolio/static/media/Erik Rockenmeyer Resume.3246d7272e6f3ce4e2f5.pdf",
+    "static/media/screenshot.png": "/react-portfolio/static/media/screenshot.4894fa3e64ce1e128317.png",
+    "static/media/site screenshot fp.png": "/react-portfolio/static/media/site screenshot fp.c8326a78990c2165d6cf.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.67ca8108.css.map": "/react-portfolio/static/css/main.67ca8108.css.map",
+    "main.b0ebe5c7.js.map": "/react-portfolio/static/js/main.b0ebe5c7.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67ca8108.css",
+    "static/js/main.b0ebe5c7.js"
+  ]
+}
