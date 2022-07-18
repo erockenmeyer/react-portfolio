@@ -26,8 +26,8 @@ function Portfolio() {
             url: 'https://erockenmeyer.github.io/weather-app/', github: '/weather-app', image: 'screenshot.png', altInfo: 'screenshot of weather app site'
         },
         {
-            name: 'React Portfolio', description: 'You are here!',
-            url: 'https://erockenmeyer.github.io/react-portfolio/', github: '/react-portfolio', image: 'react-portfolio-ss.PNG', altInfo: 'screenshot of this site\'s main page'
+            name: 'Tavern Masters', description: 'A utility for Dungeon Masters to create simple campaigns and encounters.',
+            url: 'https://tavern-masters.herokuapp.com/', github: '/tavern-masters', image: 'app-running.png', altInfo: 'screenshot of Tavern Masters website'
         }
     ]
     return (
