@@ -1,20 +1,16 @@
 # React Portfolio
 ## Table of Contents
 - [Description](README.md#description)
-- [Installation](README.md#installation)
 - [Usage](README.md#usage)
 - [Screenshot](README.md#screenshot)
 - [Contributing](README.md#contributing)
-- [Tests](README.md#tests)
 - [Questions](README.md#questions)
 
 ## Description
-A new version of my portfolio using react to create a single-page app. It displays the projects I am most proud of, my contact information, and contains my resume.
-
-## Installation
-N/A
+A version of my portfolio using react to create a single-page app. It displays the projects I am most proud of, my contact information, and contains my resume.
 
 ## Usage
+Please visit the link below to view my portfolio.
 https://erockenmeyer.github.io/react-portfolio/
 
 ## Screenshot

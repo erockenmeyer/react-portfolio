@@ -26,7 +26,7 @@ function Resume() {
                 </ul>
             </div>
             <div>
-                <h4><a className="site-name" href={require('../../assets/Erik Rockenmeyer Resume.pdf')} download="Erik Rockenmeyer Resume">Download my Resume</a></h4>
+                <h4><a className="site-name" href={require('../../assets/Erik Rockenmeyer Resume 2022.pdf')} download="Erik Rockenmeyer Resume">Download my Resume</a></h4>
             </div>
         </main>
     )

@@ -39,7 +39,7 @@ function Contact () {
                 LinkedIn: <a href="https://www.linkedin.com/in/erik-rockenmeyer-6aa4a311a/">Erik Rockenmeyer</a> <br />
                 github: <a href="https://github.com/erockenmeyer">erockenmeyer</a>
             </p>
-            <form className='mb-2 mt-4' id="contact-form" onSubmit={submitHandler}>
+            {/* <form className='mb-2 mt-4' id="contact-form" onSubmit={submitHandler}>
                 <div>
                     <label htmlFor='name'>Name:</label>
                     <input type='text' name='name' onBlur={changeHandler} defaultValue={name}></input>
@@ -58,7 +58,7 @@ function Contact () {
                     </div>
                 )}
                 <button type='submit'>Submit</button>
-            </form>
+            </form> */}
         </main>
     )
 }
