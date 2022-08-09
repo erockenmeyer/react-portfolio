@@ -9,7 +9,7 @@
 - [Questions](README.md#questions)
 
 ## Description
-A new version of my portfolio using react.
+A new version of my portfolio using react to create a single-page app. It displays the projects I am most proud of, my contact information, and contains my resume.
 
 ## Installation
 N/A
